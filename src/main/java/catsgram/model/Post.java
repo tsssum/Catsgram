@@ -1,4 +1,4 @@
-package ru.yandex.practicum.catsgram.model;
+package catsgram.model;
 
 import java.time.Instant;
 

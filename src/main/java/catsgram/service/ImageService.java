@@ -1,12 +1,15 @@
-package ru.yandex.practicum.catsgram.service;
+package catsgram.service;
 
+import catsgram.exception.ConditionsNotMetException;
+import catsgram.exception.ImageFileException;
+import catsgram.exception.NotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
-import ru.yandex.practicum.catsgram.model.Image;
-import ru.yandex.practicum.catsgram.model.ImageData;
-import ru.yandex.practicum.catsgram.model.Post;
+import catsgram.model.Image;
+import catsgram.model.ImageData;
+import catsgram.model.Post;
 import ru.yandex.practicum.catsgram.exception.*;
 
 import java.io.IOException;

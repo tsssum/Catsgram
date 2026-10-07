@@ -1,4 +1,4 @@
-package ru.yandex.practicum.catsgram.exception;
+package catsgram.exception;
 
 public class ConditionsNotMetException extends RuntimeException {
     public ConditionsNotMetException(String message) {

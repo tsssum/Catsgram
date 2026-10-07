@@ -1,4 +1,4 @@
-package ru.yandex.practicum.catsgram.model;
+package catsgram.model;
 
 public enum SORT {
     ASC,

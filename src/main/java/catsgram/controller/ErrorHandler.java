@@ -1,8 +1,12 @@
-package ru.yandex.practicum.catsgram.controller;
+package catsgram.controller;
 
+import catsgram.exception.ConditionsNotMetException;
+import catsgram.exception.DuplicatedDataException;
+import catsgram.exception.NotFoundException;
+import catsgram.exception.ParameterNotValidException;
 import org.springframework.http.HttpStatus;
 import ru.yandex.practicum.catsgram.exception.*;
-import ru.yandex.practicum.catsgram.model.ErrorResponse;
+import catsgram.model.ErrorResponse;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

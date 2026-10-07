@@ -1,12 +1,12 @@
-package ru.yandex.practicum.catsgram.controller;
+package catsgram.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import ru.yandex.practicum.catsgram.exception.ConditionsNotMetException;
-import ru.yandex.practicum.catsgram.exception.ParameterNotValidException;
-import ru.yandex.practicum.catsgram.model.Post;
-import ru.yandex.practicum.catsgram.service.PostService;
-import ru.yandex.practicum.catsgram.service.UserService;
+import catsgram.exception.ConditionsNotMetException;
+import catsgram.exception.ParameterNotValidException;
+import catsgram.model.Post;
+import catsgram.service.PostService;
+import catsgram.service.UserService;
 
 import java.util.Collection;
 import java.util.Optional;

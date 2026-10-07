@@ -1,4 +1,4 @@
-package ru.yandex.practicum.catsgram.exception;
+package catsgram.exception;
 
 import lombok.Getter;
 
